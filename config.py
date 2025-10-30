@@ -12,7 +12,6 @@ class APPConfig(BaseSettings):
 
     ### chroma configs
     CHROMA_PERSIST_DIR:str = "/chroma_db"
-    CHROMA_IMPL:str= "duckdb+parquet"
     COLLECTION_NAME: str = "semantic_cache"
 
 
