@@ -22,7 +22,7 @@ class APPConfig(BaseSettings):
 
 
     ### hugging face embeddings 
-    Embeding_model_name:str="BAAI/bge-base-en-v1.5"
+    EMBEDDING_MODEL_NAME:str="BAAI/bge-base-en-v1.5"
 
 
     model_config= SettingsConfigDict(
