@@ -209,3 +209,4 @@ __marimo__/
 requirements.txt
 .env
 .gitignore
+chroma_db/
