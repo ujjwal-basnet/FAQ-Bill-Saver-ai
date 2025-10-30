@@ -8,11 +8,16 @@ class APPConfig(BaseSettings):
     GEMINAI_API_KEY: str 
     NOMIC_KEY: str 
     TAVILY_KEY: str
+    HUGGING_FACE:str
 
 
     ### chroma configs
-    CHROMA_PERSIST_DIR:str = "/chroma_db"
+    CHROMA_PERSIST_DIR:str = "./chroma_db"
     COLLECTION_NAME: str = "semantic_cache"
+
+
+    ### hugging face embeddings 
+    Embeding_model_name="BAAI/bge-base-en-v1.5"
 
 
     model_config= SettingsConfigDict(
