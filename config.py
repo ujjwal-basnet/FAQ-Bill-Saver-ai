@@ -8,7 +8,13 @@ class APPConfig(Basesettings):
     GEMINAI_API_KEY: str 
     NOMIC_KEY: str 
     TAVILY_KEY: str
-        
+
+
+    ### chroma configs
+    CHROMA_PERSIST_DIR:str = "/chroma_db"
+    CHROMA_IMPL:str= "duckdb+parquet"
+    COLLECTION_NAME: str = "semantic_cache"
+
 
     class Config: 
         env_file = ".env" 
