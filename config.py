@@ -10,6 +10,11 @@ class APPConfig(BaseSettings):
     TAVILY_KEY: str
     HUGGING_FACE:str
 
+    #  geminai Model config
+    MODEL_PROVIDER: str = "geminai"
+    GEMINAI_DEFULT_MODEL_NAME: str = "gemini-2.5-flash-lite"
+
+
 
     ### chroma configs
     CHROMA_PERSIST_DIR:str = "./chroma_db"
@@ -17,7 +22,7 @@ class APPConfig(BaseSettings):
 
 
     ### hugging face embeddings 
-    Embeding_model_name="BAAI/bge-base-en-v1.5"
+    Embeding_model_name:str="BAAI/bge-base-en-v1.5"
 
 
     model_config= SettingsConfigDict(
