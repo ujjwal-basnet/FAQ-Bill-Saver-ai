@@ -3,6 +3,8 @@
 FAQ-Bill-Saver-ai is a small local prototype that caches AI responses (semantic + exact) for AWS SageMaker–related questions. It uses ChromaDB for persistent vector storage, SentenceTransformers for embeddings, and a Google Gemini based LLM connector for on-demand answers.
 the above code useses cache insted of calling llm everytime
 
+
+
 for examples 
 if user1 ask : what is capital city of nepal 
 llm will save this response on his database,  store question on vector database   and then  show to user 1
