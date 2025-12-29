@@ -14,9 +14,14 @@ now later if user 2, user 3 , ... any user ask
 same related queestion like
 [ capital nepal , capital city of nepal ? , what  capital city nepal ]
 
-any thing which is higly simiara to question user 1 ask 
-the ai will replay from its cache , insted of calling llm 
+any thing which is higly similear  to question user 1 asked
+
+
+then  ai will replay from its cache , insted of calling llm 
 hence its saves money 
+
+if question are not similar (cache miss condition) then it calls llm 
+and then store answer again
 
 
 its highly usefull on , projects like customer care chatbox 
