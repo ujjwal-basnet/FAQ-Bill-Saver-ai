@@ -1,6 +1,6 @@
 # FAQ-Bill-Saver-ai
 
-### Probelm : Most of Customer chatbot  questions are  repetative calling llm apis for each time on reperative question from different user is not ideal 
+### Probelm : Most of Customer chatbot  questions are  repetative calling llm apis for each time on similar  question from different user is not ideal 
  if user1 ask : what is capital city of nepal 
  llm will save this response on his database,  store question on vector database   and then  show to user 1
 
